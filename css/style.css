@@ -1,0 +1,219 @@
+* {
+  padding:0; margin:0;
+  font-family: arial,sans-serif;
+}
+
+#page {
+
+  padding:0; margin:0;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+html, body {
+
+  height: 100%;
+  width: 100%;
+
+
+}
+
+.border-flex {
+  border: 2px solid red;
+}
+
+a {
+  text-decoration: none;
+  color:grey;
+}
+a:hover {
+  text-decoration:underline;
+}
+
+
+
+#body {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex: 0.4;
+  height:20%;
+
+}
+
+#header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+ul {
+  list-style:none;
+  display: flex;
+  margin: 10px;
+  padding: 0px;
+}
+
+li {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+#logo {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.responsive{
+  width: auto;
+  height: auto;
+}
+
+
+#recherche{
+display: flex;
+
+flex: 0.7;
+flex-direction: column;
+}
+
+#cherche{
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  align-items: center;
+  width: 30%;
+  height:45px;
+  border-radius: 25px;
+  border : 1px solid #E6E6E6;
+  margin-bottom: 20px;
+
+}
+
+#cherche:hover{
+  box-shadow: 0px 0px 20px 0px #9c9c9c;
+}
+
+#loupe{
+border-radius: 25px;
+}
+
+#search{
+  width: 100%;
+}
+
+.barre
+{
+  width: 100%;
+  height:40px;
+  border:0;
+  outline: none;
+}
+
+
+#micro{
+border-radius: 25px;
+}
+
+
+#texte{
+  display: flex;
+  justify-content: center;
+  font-size: 13px;
+}
+
+#english {
+  text-decoration: none;
+  color:blue;
+}
+
+#english:hover {
+  text-decoration: underline;
+  color:blue;
+}
+
+#bouton{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.boutongris {
+margin:3px;
+background-color: #E6E6E6;
+border: 0;
+border-radius: 2px;
+height: 35px;
+width: 150px;
+color: #505050;
+}
+
+.boutongris:hover{
+  color: black;
+  border: 10;
+}
+
+
+.boutonconnexion {
+  background-color: #1929E8;
+  border: 0;
+  border-radius: 5px;
+  height: 30px;
+  width: 120px;
+  color: white;
+}
+
+.boutonconnexion:hover {
+ color: lightgrey;
+ box-shadow: 0px 0px 10px 0px #0C1EF4;
+}
+
+footer {
+  background-color: #F2F2F2;
+  font-size: 10pt;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+#France{
+  display: flex;
+  height: 40px;
+
+  align-items: center;
+
+}
+
+#France > p {
+  margin-left: 20px;
+  color:grey;
+
+}
+
+
+#bas{
+  display: flex;
+  align-items: baseline;
+  justify-content:space-between;
+  height: 3%;
+  flex-wrap: wrap-reverse;
+}
+
+
+#footers{
+display: flex;
+flex-wrap: wrap-reverse;
+}
+
+#Footer{
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+#ecology {
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
